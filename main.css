@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap');
+
+:root{
+        --lg-font: 'Kaisei Tokumin', serif;
+        --sm-font: 'Poppins', sans-serif;
+        --orange: #eea812;
+        --green: #83eb88;;
+}
+body {
+        font-family: var(--sm-font);
+}
+body::before {
+        display: block;
+        content: '';
+        height: 60px;
+}
+.nav-link:hover{
+        color: var(--orange) !important;
+        cursor: pointer;
+}
+.navbar-nav > li{
+        margin-left:35px;
+        margin-right:33px;
+}
+body, html {
+        height: 100%;
+}
+.bgo {
+        background-color: var(--orange) !important;
+}
+.bgx {
+        /* The image used */
+        background-image: url("./img/bghero.png");
+      
+        /* Full height */
+        height: 60%;
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.bglp{
+        background-color: rgb(253, 222, 227);
+}
+#apply{
+        position:absolute; bottom:0;
+      }
+/* @media (max-width: 750px){
+        .container{
+                overflow-y: scroll;
+        }
+        .container::-webkit-scrollbar{
+                display: none;
+        }
+
+        .container{
+                width: calc(100% / 2 - 15px);
+        }
+}
+
+@media (max-width: 550px) {
+        .container {
+                width: 100%;
+        }
+} */
